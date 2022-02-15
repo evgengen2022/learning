@@ -1,0 +1,10 @@
+{
+  "name": "@evgengen2022/learning",
+  "main": "index.js",
+  "dependencies": {
+    "express": "4.17.2"
+  },
+  "scripts": {
+    "start": "npm install && node index.js"
+  }
+}
