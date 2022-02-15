@@ -1,12 +1,9 @@
 const express = require("express");
-
 const app = express();
 
-app.get("/leafs/:address", function(req, res){
-
-    const address = req.params.address;
-    console.log(address);
-
+app.get("/test", function(req, res){
+    console.log('test');
+    res.status(200);
 });
 
 app.listen(8080, function(){

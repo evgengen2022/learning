@@ -5,6 +5,7 @@
     "express": "4.17.2"
   },
   "scripts": {
-    "start": "npm install && node index.js"
+    "install": "npm install",
+    "start": "node index.js"
   }
 }
